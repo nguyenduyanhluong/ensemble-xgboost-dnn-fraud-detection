@@ -26,9 +26,9 @@ The project proposes a **hybrid ensemble framework** that integrates **Enhanced 
 ## Key Results
 - **Enhanced XGBoost** achieved strong single-model performance with **ROC-AUC ≈ 0.963** and improved recall–precision balance.
 - The **XGBoost + DNN ensemble** delivered the **best overall performance,** achieving:
-- **ROC-AUC ≈ 0.974**
-- **F1-score ≈ 0.74**
-- **PR-AUC ≈ 0.79**
+-- **ROC-AUC ≈ 0.974**
+-- **F1-score ≈ 0.74**
+-- **PR-AUC ≈ 0.79**
 - The ensemble outperformed traditional baselines (Logistic Regression, Random Forest) and standalone deep learning models.
 - SHAP analysis identified **transaction amount, card attributes, identity-linked variables, and temporal patterns** as the most influential fraud predictors.
 - Results demonstrate that hybrid ensemble learning provides a **robust, interpretable, and deployment-ready** solution for fraud detection.
